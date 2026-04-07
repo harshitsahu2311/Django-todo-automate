@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  web:
+    build: . # location of dockerfile
+    container_name: todo-app
+    ports:
+      - "8000:8000"
